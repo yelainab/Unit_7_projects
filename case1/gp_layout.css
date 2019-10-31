@@ -65,11 +65,10 @@ article{
    nav.horizontal ul{
       height: 40px;
       display: flex;
-      display: -webkit-box;
-      -webkit-flex-flow: row;
-      flex-flow: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
    }
-   nav.horizontal ul > li{
+   nav.horizontal li{
       -webkit-flex: 1 1 auto;
       flex: 1 1 auto;
    }
