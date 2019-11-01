@@ -5,8 +5,8 @@
    Tutorial 5
    Case Problem 3
    
-   Author:   
-   Date:      
+   Author:   yelaina buford 
+   Date:      10/31/19
    
    Filename: cw_styles.css
 
@@ -17,14 +17,19 @@
 
 
 /* Import Basic Design Styles  */
-
+@import url("cw_designs.css");
 
 
 /* ===============================
 	General Styles for All Devices
    ===============================
 */
-
+nav#bottom ul{
+   display: -webkit-box;
+   display: flex;
+   -webkit-flex-flow: row;
+   flex-flow: row; 
+}
 
 
 /* ===============================
